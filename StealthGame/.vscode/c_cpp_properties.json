@@ -342,7 +342,13 @@
                 "E:/UE_4.26/Engine/Intermediate/Build/Win64/UE4Editor/Inc/Slate",
                 "E:/UE_4.26/Engine/Intermediate/Build/Win64/UE4Editor/Inc/UnrealEd",
                 "E:/UE_4.26/Engine/Source/Developer/ToolMenus/Public",
-                "E:/UE_4.26/Engine/Intermediate/Build/Win64/UE4Editor/Inc/ToolMenus"
+                "E:/UE_4.26/Engine/Intermediate/Build/Win64/UE4Editor/Inc/ToolMenus",
+                "E:/UE_4.26/Engine/Source/Runtime/AudioMixerCore/Public",
+                "E:/UE_4.26/Engine/Source/Runtime/AnimationCore/Public",
+                "E:/UE_4.26/Engine/Source/Runtime",
+                "E:/UE_4.26/Engine/Source/Runtime/DeveloperSettings/Public",
+                "E:/UE_4.26/Engine/Source/Runtime/Renderer/Public",
+                "E:/UE_4.26/Engine/Intermediate/Build/Win64/UE4Editor/Inc/DeveloperSettings"
             ]
         }
     ],
