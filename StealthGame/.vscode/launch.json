@@ -1,0 +1,128 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "FPSGame (Debug)",
+			"request": "launch",
+			"preLaunchTask": "FPSGame Win64 Debug Build",
+			"program": "F:\\UnrealEngineProjects\\StealthGame\\StealthGame\\Binaries\\Win64\\UE4-Win64-Debug.exe",
+			"args": [
+			],
+			"cwd": "E:\\UE_4.26",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "E:\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "FPSGame (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "FPSGame Win64 DebugGame Build",
+			"program": "F:\\UnrealEngineProjects\\StealthGame\\StealthGame\\Binaries\\Win64\\UE4-Win64-DebugGame.exe",
+			"args": [
+			],
+			"cwd": "E:\\UE_4.26",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "E:\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "FPSGame (Development)",
+			"request": "launch",
+			"preLaunchTask": "FPSGame Win64 Development Build",
+			"program": "F:\\UnrealEngineProjects\\StealthGame\\StealthGame\\Binaries\\Win64\\UE4.exe",
+			"args": [
+			],
+			"cwd": "E:\\UE_4.26",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "E:\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "FPSGame (Shipping)",
+			"request": "launch",
+			"preLaunchTask": "FPSGame Win64 Shipping Build",
+			"program": "F:\\UnrealEngineProjects\\StealthGame\\StealthGame\\Binaries\\Win64\\UE4-Win64-Shipping.exe",
+			"args": [
+			],
+			"cwd": "E:\\UE_4.26",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "E:\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "FPSGame (Test)",
+			"request": "launch",
+			"preLaunchTask": "FPSGame Win64 Test Build",
+			"program": "F:\\UnrealEngineProjects\\StealthGame\\StealthGame\\Binaries\\Win64\\UE4-Win64-Test.exe",
+			"args": [
+			],
+			"cwd": "E:\\UE_4.26",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "E:\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "FPSGameEditor (Debug)",
+			"request": "launch",
+			"preLaunchTask": "FPSGameEditor Win64 Debug Build",
+			"program": "E:\\UE_4.26\\Engine\\Binaries\\Win64\\UE4Editor-Win64-Debug.exe",
+			"args": [
+				"F:\\UnrealEngineProjects\\StealthGame\\StealthGame\\FPSGame.uproject"
+			],
+			"cwd": "E:\\UE_4.26",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "E:\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "FPSGameEditor (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "FPSGameEditor Win64 DebugGame Build",
+			"program": "E:\\UE_4.26\\Engine\\Binaries\\Win64\\UE4Editor-Win64-DebugGame.exe",
+			"args": [
+				"F:\\UnrealEngineProjects\\StealthGame\\StealthGame\\FPSGame.uproject"
+			],
+			"cwd": "E:\\UE_4.26",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "E:\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "FPSGameEditor (Development)",
+			"request": "launch",
+			"preLaunchTask": "FPSGameEditor Win64 Development Build",
+			"program": "E:\\UE_4.26\\Engine\\Binaries\\Win64\\UE4Editor.exe",
+			"args": [
+				"F:\\UnrealEngineProjects\\StealthGame\\StealthGame\\FPSGame.uproject"
+			],
+			"cwd": "E:\\UE_4.26",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "E:\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "clr",
+			"request": "launch",
+			"program": "E:\\UE_4.26\\Engine\\Binaries\\DotNET\\UnrealBuildTool.exe",
+			"console": "externalTerminal",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=\"F:\\UnrealEngineProjects\\StealthGame\\StealthGame\\FPSGame.uproject\"",
+				"-game",
+				"-engine"
+			],
+			"internalConsoleOptions": "openOnSessionStart",
+			"cwd": "E:\\UE_4.26"
+		}
+	]
+}

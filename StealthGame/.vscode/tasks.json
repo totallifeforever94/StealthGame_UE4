@@ -1,0 +1,977 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "FPSGame Win32 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"FPSGame",
+				"Win32",
+				"Debug",
+				"F:\\UnrealEngineProjects\\StealthGame\\StealthGame\\FPSGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_4.26"
+			}
+		},
+		{
+			"label": "FPSGame Win32 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"FPSGame",
+				"Win32",
+				"Debug",
+				"F:\\UnrealEngineProjects\\StealthGame\\StealthGame\\FPSGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FPSGame Win32 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_4.26"
+			}
+		},
+		{
+			"label": "FPSGame Win32 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"FPSGame",
+				"Win32",
+				"Debug",
+				"F:\\UnrealEngineProjects\\StealthGame\\StealthGame\\FPSGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_4.26"
+			}
+		},
+		{
+			"label": "FPSGame Win32 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"FPSGame",
+				"Win32",
+				"DebugGame",
+				"F:\\UnrealEngineProjects\\StealthGame\\StealthGame\\FPSGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_4.26"
+			}
+		},
+		{
+			"label": "FPSGame Win32 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"FPSGame",
+				"Win32",
+				"DebugGame",
+				"F:\\UnrealEngineProjects\\StealthGame\\StealthGame\\FPSGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FPSGame Win32 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_4.26"
+			}
+		},
+		{
+			"label": "FPSGame Win32 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"FPSGame",
+				"Win32",
+				"DebugGame",
+				"F:\\UnrealEngineProjects\\StealthGame\\StealthGame\\FPSGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_4.26"
+			}
+		},
+		{
+			"label": "FPSGame Win32 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"FPSGame",
+				"Win32",
+				"Development",
+				"F:\\UnrealEngineProjects\\StealthGame\\StealthGame\\FPSGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_4.26"
+			}
+		},
+		{
+			"label": "FPSGame Win32 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"FPSGame",
+				"Win32",
+				"Development",
+				"F:\\UnrealEngineProjects\\StealthGame\\StealthGame\\FPSGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FPSGame Win32 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_4.26"
+			}
+		},
+		{
+			"label": "FPSGame Win32 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"FPSGame",
+				"Win32",
+				"Development",
+				"F:\\UnrealEngineProjects\\StealthGame\\StealthGame\\FPSGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_4.26"
+			}
+		},
+		{
+			"label": "FPSGame Win32 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"FPSGame",
+				"Win32",
+				"Shipping",
+				"F:\\UnrealEngineProjects\\StealthGame\\StealthGame\\FPSGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_4.26"
+			}
+		},
+		{
+			"label": "FPSGame Win32 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"FPSGame",
+				"Win32",
+				"Shipping",
+				"F:\\UnrealEngineProjects\\StealthGame\\StealthGame\\FPSGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FPSGame Win32 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_4.26"
+			}
+		},
+		{
+			"label": "FPSGame Win32 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"FPSGame",
+				"Win32",
+				"Shipping",
+				"F:\\UnrealEngineProjects\\StealthGame\\StealthGame\\FPSGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_4.26"
+			}
+		},
+		{
+			"label": "FPSGame Win32 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"FPSGame",
+				"Win32",
+				"Test",
+				"F:\\UnrealEngineProjects\\StealthGame\\StealthGame\\FPSGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_4.26"
+			}
+		},
+		{
+			"label": "FPSGame Win32 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"FPSGame",
+				"Win32",
+				"Test",
+				"F:\\UnrealEngineProjects\\StealthGame\\StealthGame\\FPSGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FPSGame Win32 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_4.26"
+			}
+		},
+		{
+			"label": "FPSGame Win32 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"FPSGame",
+				"Win32",
+				"Test",
+				"F:\\UnrealEngineProjects\\StealthGame\\StealthGame\\FPSGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_4.26"
+			}
+		},
+		{
+			"label": "FPSGame Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"FPSGame",
+				"Win64",
+				"Debug",
+				"F:\\UnrealEngineProjects\\StealthGame\\StealthGame\\FPSGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_4.26"
+			}
+		},
+		{
+			"label": "FPSGame Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"FPSGame",
+				"Win64",
+				"Debug",
+				"F:\\UnrealEngineProjects\\StealthGame\\StealthGame\\FPSGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FPSGame Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_4.26"
+			}
+		},
+		{
+			"label": "FPSGame Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"FPSGame",
+				"Win64",
+				"Debug",
+				"F:\\UnrealEngineProjects\\StealthGame\\StealthGame\\FPSGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_4.26"
+			}
+		},
+		{
+			"label": "FPSGame Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"FPSGame",
+				"Win64",
+				"DebugGame",
+				"F:\\UnrealEngineProjects\\StealthGame\\StealthGame\\FPSGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_4.26"
+			}
+		},
+		{
+			"label": "FPSGame Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"FPSGame",
+				"Win64",
+				"DebugGame",
+				"F:\\UnrealEngineProjects\\StealthGame\\StealthGame\\FPSGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FPSGame Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_4.26"
+			}
+		},
+		{
+			"label": "FPSGame Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"FPSGame",
+				"Win64",
+				"DebugGame",
+				"F:\\UnrealEngineProjects\\StealthGame\\StealthGame\\FPSGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_4.26"
+			}
+		},
+		{
+			"label": "FPSGame Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"FPSGame",
+				"Win64",
+				"Development",
+				"F:\\UnrealEngineProjects\\StealthGame\\StealthGame\\FPSGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_4.26"
+			}
+		},
+		{
+			"label": "FPSGame Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"FPSGame",
+				"Win64",
+				"Development",
+				"F:\\UnrealEngineProjects\\StealthGame\\StealthGame\\FPSGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FPSGame Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_4.26"
+			}
+		},
+		{
+			"label": "FPSGame Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"FPSGame",
+				"Win64",
+				"Development",
+				"F:\\UnrealEngineProjects\\StealthGame\\StealthGame\\FPSGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_4.26"
+			}
+		},
+		{
+			"label": "FPSGame Win64 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"FPSGame",
+				"Win64",
+				"Shipping",
+				"F:\\UnrealEngineProjects\\StealthGame\\StealthGame\\FPSGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_4.26"
+			}
+		},
+		{
+			"label": "FPSGame Win64 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"FPSGame",
+				"Win64",
+				"Shipping",
+				"F:\\UnrealEngineProjects\\StealthGame\\StealthGame\\FPSGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FPSGame Win64 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_4.26"
+			}
+		},
+		{
+			"label": "FPSGame Win64 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"FPSGame",
+				"Win64",
+				"Shipping",
+				"F:\\UnrealEngineProjects\\StealthGame\\StealthGame\\FPSGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_4.26"
+			}
+		},
+		{
+			"label": "FPSGame Win64 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"FPSGame",
+				"Win64",
+				"Test",
+				"F:\\UnrealEngineProjects\\StealthGame\\StealthGame\\FPSGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_4.26"
+			}
+		},
+		{
+			"label": "FPSGame Win64 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"FPSGame",
+				"Win64",
+				"Test",
+				"F:\\UnrealEngineProjects\\StealthGame\\StealthGame\\FPSGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FPSGame Win64 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_4.26"
+			}
+		},
+		{
+			"label": "FPSGame Win64 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"FPSGame",
+				"Win64",
+				"Test",
+				"F:\\UnrealEngineProjects\\StealthGame\\StealthGame\\FPSGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_4.26"
+			}
+		},
+		{
+			"label": "FPSGame IOS Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"FPSGame",
+				"IOS",
+				"Debug",
+				"F:\\UnrealEngineProjects\\StealthGame\\StealthGame\\FPSGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_4.26"
+			}
+		},
+		{
+			"label": "FPSGame IOS Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"FPSGame",
+				"IOS",
+				"Debug",
+				"F:\\UnrealEngineProjects\\StealthGame\\StealthGame\\FPSGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FPSGame IOS Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_4.26"
+			}
+		},
+		{
+			"label": "FPSGame IOS Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"FPSGame",
+				"IOS",
+				"Debug",
+				"F:\\UnrealEngineProjects\\StealthGame\\StealthGame\\FPSGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_4.26"
+			}
+		},
+		{
+			"label": "FPSGame IOS DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"FPSGame",
+				"IOS",
+				"DebugGame",
+				"F:\\UnrealEngineProjects\\StealthGame\\StealthGame\\FPSGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_4.26"
+			}
+		},
+		{
+			"label": "FPSGame IOS DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"FPSGame",
+				"IOS",
+				"DebugGame",
+				"F:\\UnrealEngineProjects\\StealthGame\\StealthGame\\FPSGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FPSGame IOS DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_4.26"
+			}
+		},
+		{
+			"label": "FPSGame IOS DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"FPSGame",
+				"IOS",
+				"DebugGame",
+				"F:\\UnrealEngineProjects\\StealthGame\\StealthGame\\FPSGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_4.26"
+			}
+		},
+		{
+			"label": "FPSGame IOS Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"FPSGame",
+				"IOS",
+				"Development",
+				"F:\\UnrealEngineProjects\\StealthGame\\StealthGame\\FPSGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_4.26"
+			}
+		},
+		{
+			"label": "FPSGame IOS Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"FPSGame",
+				"IOS",
+				"Development",
+				"F:\\UnrealEngineProjects\\StealthGame\\StealthGame\\FPSGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FPSGame IOS Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_4.26"
+			}
+		},
+		{
+			"label": "FPSGame IOS Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"FPSGame",
+				"IOS",
+				"Development",
+				"F:\\UnrealEngineProjects\\StealthGame\\StealthGame\\FPSGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_4.26"
+			}
+		},
+		{
+			"label": "FPSGame IOS Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"FPSGame",
+				"IOS",
+				"Shipping",
+				"F:\\UnrealEngineProjects\\StealthGame\\StealthGame\\FPSGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_4.26"
+			}
+		},
+		{
+			"label": "FPSGame IOS Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"FPSGame",
+				"IOS",
+				"Shipping",
+				"F:\\UnrealEngineProjects\\StealthGame\\StealthGame\\FPSGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FPSGame IOS Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_4.26"
+			}
+		},
+		{
+			"label": "FPSGame IOS Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"FPSGame",
+				"IOS",
+				"Shipping",
+				"F:\\UnrealEngineProjects\\StealthGame\\StealthGame\\FPSGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_4.26"
+			}
+		},
+		{
+			"label": "FPSGame IOS Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"FPSGame",
+				"IOS",
+				"Test",
+				"F:\\UnrealEngineProjects\\StealthGame\\StealthGame\\FPSGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_4.26"
+			}
+		},
+		{
+			"label": "FPSGame IOS Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"FPSGame",
+				"IOS",
+				"Test",
+				"F:\\UnrealEngineProjects\\StealthGame\\StealthGame\\FPSGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FPSGame IOS Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_4.26"
+			}
+		},
+		{
+			"label": "FPSGame IOS Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"FPSGame",
+				"IOS",
+				"Test",
+				"F:\\UnrealEngineProjects\\StealthGame\\StealthGame\\FPSGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_4.26"
+			}
+		},
+		{
+			"label": "FPSGameEditor Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"FPSGameEditor",
+				"Win64",
+				"Debug",
+				"F:\\UnrealEngineProjects\\StealthGame\\StealthGame\\FPSGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_4.26"
+			}
+		},
+		{
+			"label": "FPSGameEditor Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"FPSGameEditor",
+				"Win64",
+				"Debug",
+				"F:\\UnrealEngineProjects\\StealthGame\\StealthGame\\FPSGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FPSGameEditor Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_4.26"
+			}
+		},
+		{
+			"label": "FPSGameEditor Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"FPSGameEditor",
+				"Win64",
+				"Debug",
+				"F:\\UnrealEngineProjects\\StealthGame\\StealthGame\\FPSGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_4.26"
+			}
+		},
+		{
+			"label": "FPSGameEditor Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"FPSGameEditor",
+				"Win64",
+				"DebugGame",
+				"F:\\UnrealEngineProjects\\StealthGame\\StealthGame\\FPSGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_4.26"
+			}
+		},
+		{
+			"label": "FPSGameEditor Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"FPSGameEditor",
+				"Win64",
+				"DebugGame",
+				"F:\\UnrealEngineProjects\\StealthGame\\StealthGame\\FPSGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FPSGameEditor Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_4.26"
+			}
+		},
+		{
+			"label": "FPSGameEditor Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"FPSGameEditor",
+				"Win64",
+				"DebugGame",
+				"F:\\UnrealEngineProjects\\StealthGame\\StealthGame\\FPSGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_4.26"
+			}
+		},
+		{
+			"label": "FPSGameEditor Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"FPSGameEditor",
+				"Win64",
+				"Development",
+				"F:\\UnrealEngineProjects\\StealthGame\\StealthGame\\FPSGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_4.26"
+			}
+		},
+		{
+			"label": "FPSGameEditor Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"FPSGameEditor",
+				"Win64",
+				"Development",
+				"F:\\UnrealEngineProjects\\StealthGame\\StealthGame\\FPSGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FPSGameEditor Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_4.26"
+			}
+		},
+		{
+			"label": "FPSGameEditor Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"FPSGameEditor",
+				"Win64",
+				"Development",
+				"F:\\UnrealEngineProjects\\StealthGame\\StealthGame\\FPSGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_4.26"
+			}
+		}
+	]
+}

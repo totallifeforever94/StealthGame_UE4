@@ -1,0 +1,9 @@
+{
+	"configurations": [
+		{
+			"name": "FPSGameEditor Editor Win64 Development (FPSGame)",
+			"intelliSenseMode": "msvc-x64",
+			"compileCommands": "F:\\UnrealEngineProjects\\StealthGame\\StealthGame\\.vscode\\compileCommands_FPSGame.json"
+		}
+	]
+}
