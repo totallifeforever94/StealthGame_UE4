@@ -348,7 +348,10 @@
                 "E:/UE_4.26/Engine/Source/Runtime",
                 "E:/UE_4.26/Engine/Source/Runtime/DeveloperSettings/Public",
                 "E:/UE_4.26/Engine/Source/Runtime/Renderer/Public",
-                "E:/UE_4.26/Engine/Intermediate/Build/Win64/UE4Editor/Inc/DeveloperSettings"
+                "E:/UE_4.26/Engine/Intermediate/Build/Win64/UE4Editor/Inc/DeveloperSettings",
+                "E:/UE_4.26/Engine/Source/Runtime/AIModule",
+                "E:/UE_4.26/Engine/Source/Runtime/AIModule/Classes",
+                "E:/UE_4.26/Engine/Intermediate/Build/Win64/UE4Editor/Inc/AIModule"
             ]
         }
     ],
