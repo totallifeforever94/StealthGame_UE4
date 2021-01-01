@@ -41,16 +41,9 @@ void AFPSAIGuard::Tick(float DeltaTime)
 		FVector Delta = GetActorLocation() - CurrentPatrolPoint->GetActorLocation();
 		float DistanceToGoal = Delta.Size();
 
-		UE_LOG(LogTemp, Error, TEXT("%f"), DistanceToGoal);
-
 		if (DistanceToGoal < 150.f)
 		{
-			UE_LOG(LogTemp, Warning, TEXT("GO BACK!"));
 			MoveToNextPatrolPoint();
-		}
-		else
-		{
-			UE_LOG(LogTemp, Warning, TEXT("Proceed!"));
 		}
 	}
 }
