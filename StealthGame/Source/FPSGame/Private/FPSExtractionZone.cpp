@@ -44,7 +44,7 @@ void AFPSExtractionZone::HandleOverlap(UPrimitiveComponent *OverlappedComponent,
 
 		if (GameMode)
 		{
-			GameMode->CompleteMission(PlayerCharacter);
+			GameMode->CompleteMission(PlayerCharacter, true);
 		}
 	}
 	else
