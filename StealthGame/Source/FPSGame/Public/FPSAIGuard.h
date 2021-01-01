@@ -16,7 +16,8 @@ enum class EAIState : uint8
 	Alerted
 };
 
-UCLASS() class FPSGAME_API AFPSAIGuard : public ACharacter
+UCLASS()
+class FPSGAME_API AFPSAIGuard : public ACharacter
 {
 	GENERATED_BODY()
 
@@ -51,4 +52,17 @@ protected:
 
 	UFUNCTION(BlueprintImplementableEvent, Category = "AI")
 	void OnGuardStateChange(EAIState NewState);
+
+	UPROPERTY(EditInstanceOnly, Category = "AI")
+	bool bPatrol;
+
+	UPROPERTY(EditInstanceOnly, Category = "AI", meta = (EditCondition = "bPatrol"))
+	AActor *FirstPatrolPoint;
+
+	UPROPERTY(EditInstanceOnly, Category = "AI", meta = (EditCondition = "bPatrol"))
+	AActor *SecondPatrolPoint;
+
+	AActor *CurrentPatrolPoint;
+
+	void MoveToNextPatrolPoint();
 };
